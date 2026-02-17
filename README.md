@@ -8,13 +8,13 @@ This project implements a 5×3 LED matrix to display digits 9-0 using row-column
 
 ## Hardware
 
--STC89C53RC microcontroller
--5×3 LED matrix (self soldered)
--Crystal oscillator
--Resistors and capacitors
--Perfboard
--USB to TTL programmer
--copper wire
--male-to-female Dupont wire
+- STC89C53RC microcontroller
+- 5×3 LED matrix (self soldered)
+- Crystal oscillator
+- Resistors and capacitors
+- Perfboard
+- USB to TTL programmer
+- copper wire
+- male-to-female Dupont wire
 
 ## Software Features
