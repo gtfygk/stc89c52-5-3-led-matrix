@@ -1,20 +1,21 @@
-#STC89C52 5×3 LED Matrix Display
+# STC89C52RC 5×3 LED 点阵倒计时项目（大一 Frozen 项目）
 
-## Overview
+**项目状态：Frozen（已冻结）**
 
-This project implements a 5×3 LED matrix to display digits 9-0 using row-column scanning method on STC89C52RC (8051 MCU).
+大一时从零完成的练习项目：用 STC89C52RC 驱动 5×3 共阳 LED 点阵，实现数字倒计时（9→0）。  
+目前卡在**单片机 ISP 下载无法识别**阶段，因此先冻结，留待未来的我去完成。  
 
 ---
 
-## Hardware
+## 项目简介
+- **MCU**：STC89C52RC（8051 内核）
+- **LED 点阵**：5 列 × 3 行（共阳极，手工焊接）
+- **扫描方式**：行列动态扫描 + 倒计时显示
+- **开发板**：万能板（perfboard）手工焊接
+- **软件**：**SDCC + VS Code**（模块化 src/inc 结构，非 Keil C51）
 
-- STC89C53RC microcontroller
-- 5×3 LED matrix (self soldered)
-- Crystal oscillator
-- Resistors and capacitors
-- Perfboard
-- USB to TTL programmer
-- copper wire
-- male-to-female Dupont wire
+## 当前卡住的问题
+STC-ISP 始终无法识别单片机。  
 
-## Software Features
+## 未来想法
+当我有了一些经验和自信之后，我就会重新捡起我这个frozen的项目，我也许也会做出一些改进。
