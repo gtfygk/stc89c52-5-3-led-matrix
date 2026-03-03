@@ -1,0 +1,7 @@
+# KiCAD 缓存和临时文件
+fp-info-cache
+*.kicad_prl
+*-backups/
+*.cache
+*.xml
+*.net
