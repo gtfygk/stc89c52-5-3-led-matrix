@@ -1,7 +1,24 @@
-# KiCAD 缓存和临时文件
+# KiCAD 临时文件
 fp-info-cache
 *.kicad_prl
 *-backups/
 *.cache
 *.xml
 *.net
+
+# SDCC / VS Code 编译缓存
+*.ihx
+*.lst
+*.map
+*.sym
+*.rel
+*.rst
+*.asm
+build/
+.vscode/
+*.o
+*.hex
+
+# 其他垃圾
+.DS_Store
+Thumbs.db
